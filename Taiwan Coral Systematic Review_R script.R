@@ -202,7 +202,7 @@ cat_plot <-
     legend.title = element_text(face = "bold"),
     axis.title = element_text(face = "bold"))+
   labs(y = "Percentage of Studies", x = "Research Topic", title ="") +
-  scale_color_manual(values = rev(my_colors))  # colors match descending order
+  scale_color_manual(values = rev(my_colours))  
 
 cat_plot
 
@@ -263,3 +263,4 @@ NP_benefit
 ggsave("NP_application.tiff", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.png", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.pdf", plot = NP_benefit, width = 10, height = 5, dpi = 300)
+
