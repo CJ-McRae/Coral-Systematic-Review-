@@ -1,6 +1,6 @@
 ####**Manuscript Information**####
 
-#Coral reefs of Taiwan: a systematic review to inform priorities in the Anthropocene 
+#Coral Research in Taiwan: a systematic review to inform priorities in the Anthropocene 
 
 #Yuting Vicky Lin1¶, Daphne Z. Hoh2, Satoh Takanori3, Crystal J. McRae4¶* and Aziz J. Mulla5,6¶
 
@@ -202,7 +202,7 @@ cat_plot <-
     legend.title = element_text(face = "bold"),
     axis.title = element_text(face = "bold"))+
   labs(y = "Percentage of Studies", x = "Research Topic", title ="") +
-  scale_color_manual(values = rev(my_colours))  # colors match descending order
+  scale_color_manual(values = rev(my_colours))
 
 cat_plot
 
@@ -291,3 +291,4 @@ table(cate)
 
 # Top 10 most frequently mentioned coral taxa
 as.data.frame(sort(table(species1),dec = T))[c(1:10),]
+
