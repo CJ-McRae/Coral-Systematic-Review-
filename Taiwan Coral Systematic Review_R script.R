@@ -1,6 +1,6 @@
 ####**Manuscript Information**####
 
-#Coral reefs of Taiwan: a systematic review of the past to inform priorities in the Anthropocene 
+#Coral Research in Taiwan: a systematic review to inform priorities in the Anthropocene  
 
 #Yuting Vicky Lin1¶, Daphne Z. Hoh2, Satoh Takanori3, Crystal J. McRae4¶* and Aziz J. Mulla5,6¶
 
@@ -263,4 +263,5 @@ NP_benefit
 ggsave("NP_application.tiff", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.png", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.pdf", plot = NP_benefit, width = 10, height = 5, dpi = 300)
+
 
