@@ -292,3 +292,4 @@ table(cate)
 # Top 10 most frequently mentioned coral taxa
 as.data.frame(sort(table(species1),dec = T))[c(1:10),]
 
+
