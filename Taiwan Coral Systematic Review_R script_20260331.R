@@ -2,14 +2,15 @@
 
 #Coral Research in Taiwan: a systematic review to inform priorities in the Anthropocene 
 
-#Yuting Vicky Lin1¶, Daphne Z. Hoh2, Satoh Takanori3, Crystal J. McRae4¶* and Aziz J. Mulla5,6¶
+#Yuting Vicky Lin1¶, Daphne Z. Hoh2,3, Takanori Satoh4, Crystal J. McRae5¶* and Aziz J. Mulla6,7¶
 
 #1 Sesoko Marine Research Station, Tropical Biosphere Research Center, University of the Ryukyus, Okinawa, Japan
 #2 Taiwan Biodiversity Information Facility, Biodiversity Research Centre, Academia Sinica, Taipei, Taiwan
-#3 Institute of Nature and Environmental Technology, Kanazawa University, Ishikawa, Japan
-#4 Department of Marine Biotechnology and Resources, National Sun Yat-sen University, Kaohsiung, Taiwan.
-#5 Institute of Oceanography, National Taiwan University, Taipei 10617, Taiwan
-#6 Université Côte d'Azur, CNRS, UMR 7035 ECOSEAS, Nice, France
+#3 Data Diving Solutions, Selangor, Malaysia
+#4 Institute of Noto Satoumi Education and Studies, Ishikawa, Japan
+#5 Department of Marine Biotechnology and Resources, National Sun Yat-sen University, Kaohsiung, Taiwan.
+#6 Institute of Oceanography, National Taiwan University, Taipei 10617, Taiwan
+#7 Université Côte d'Azur, CNRS, UMR 7035 ECOSEAS, Nice, France
 
 #¶ Contributed equally
 #* Corresponding author: Crystal J. McRae 
@@ -370,7 +371,7 @@ year_plot_colour
 ggsave("Timeline_Plot.png", plot = year_plot_colour, width = 10, height = 5, dpi = 300)
 ggsave("Timeline_Plot.tiff", plot = year_plot_colour, width = 10, height = 5, dpi = 300)
 ggsave("Timeline_Plot.pdf", plot = year_plot_colour, width = 10, height = 5, dpi = 300)
-
+ggsave("Timeline_Plot.jpg", plot = year_plot_colour, width = 10, height = 5, dpi = 300)
 
 ####*Category Plot####
 
@@ -418,7 +419,7 @@ cat_plot
 ggsave("Category_Plot.tiff", plot = cat_plot, width = 10, height = 5, dpi = 300)
 ggsave("Category_Plot.png", plot = cat_plot, width = 10, height = 5, dpi = 300)
 ggsave("Category_Plot.pdf", plot = cat_plot, width = 10, height = 5, dpi = 300)
-
+ggsave("Category_Plot.jpg", plot = cat_plot, width = 10, height = 5, dpi = 300)
 
 ####*NP Application Plot####
 
@@ -471,6 +472,7 @@ NP_benefit
 ggsave("NP_application.tiff", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.png", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 ggsave("NP_application.pdf", plot = NP_benefit, width = 10, height = 5, dpi = 300)
+ggsave("NP_application.jpg", plot = NP_benefit, width = 10, height = 5, dpi = 300)
 
 
 ### species analysis
